@@ -1,0 +1,85 @@
+/* ----------Removing the margin of the body---------- */
+body{margin:0;}
+
+/* ----------General coloring and spacing of content---------- */
+section p,h1,h2{
+  width:500px;
+  padding:20px;
+  
+  color:#05F2DB;
+  
+  
+  text-align:center;
+  
+  background-color: #05A6A6;
+  border-radius:10px;
+}
+
+/*  ----------Background of the first section #Globe Vanta.js----------  */
+#anim_globe{
+  z-index:-6;
+  
+  width: 100%;
+  height: 100vh;
+   
+  background-color:red; /*Cover use when the animation doesn't work. ex:mobile*/
+  
+  
+  position:fixed;
+  top:0;
+}
+
+/* ----------Layout & coloring the first section---------- */
+.sec-un{
+  height: 100vh;  
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  
+  
+}
+
+/*  ----------Background of the second section #Net Vanta.js----------  */
+.vanta-net-container{
+  height: 100%;
+  width:100%;
+  
+  position: absolute;
+  top: 0;
+}
+#anim_net{
+  z-index:-5;
+  height:100vh;
+  position: sticky;
+  top:0;
+}
+
+/* ----------Layout & coloring the second section---------- */
+.sec-deux{
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+.sec-deux p{
+  height: 50vh;
+  
+  font-size:24px;
+  
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+/*  ----------Footer---------- */
+footer{
+  height:10vh;
+  
+  color:#081E26;
+  background-color:#05A6A6;
+  
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
